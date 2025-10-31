@@ -1,0 +1,35 @@
+# Ignore virtual environment folders, regardless of their name:
+
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/lib64/
+**pycache**/
+
+# Python bytecode and compiled files
+
+\*.pyc
+\*.pyo
+\*.pyd
+\*.so
+
+# Distribution / Packaging
+
+dist/
+build/
+\*.egg-info/
+
+# Logs and temporary files
+
+\*.log
+.coverage
+.pytest_cache/
+
+# IDE/Editor specific files
+
+.vscode/
+.idea/
+\*.swp
